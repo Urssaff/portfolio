@@ -7,6 +7,8 @@ import { ContactComponent } from './contact/contact.component';
 export const routes: Routes = [{
     //http://localhost:4200
     //http://localhost:4200/
+    //https://hmayrand-portfolio.vercel.app/
+    //https://hmayrand-portfolio.vercel.app
     path:'',
     component: AccueilComponent,
     title: 'Portfolio - Accueil' //texte dans l'onglet
