@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+app-contact{
+    align-content: center;
+    justify-self: center;
+    display:block;
+    height:100%
+}
+
+app-contact h1{
+    text-align: center;
+}
+
+app-contact div{
+    display:grid;
+    gap:3%;
+    grid-template-columns: 47% 47%;
+    grid-template-rows: 12vh 12vh 12vh;
+}
+
+app-contact div h2{
+    text-align: right;
+    align-self: center;
+}
+
+app-contact div p{
+    align-self: center;
+}
+
+app-contact a{
+    justify-self: left;
+    align-self: center;
+    height:70%;
+    width:auto;
+}
+
+app-contact img{
+    justify-self: center;
+    align-self: center;
+    padding: 5px;
+    background-color: black;
+    border-radius: 5vw;
+    height:100%;
+    width:auto;
+}
+
+app-contact img:hover{
+    background-color: #459bd5;
+    height:90%
+}

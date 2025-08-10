@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+app-accueil #profile{
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+app-accueil #profile h1{
+    font-size: 50px;
+    margin-block-end: 0;
+}
+
+app-accueil #profile h2{
+    margin-block-start: 0;
+    font-size: 30px;
+}
+
+app-accueil #profile p{
+    font-size: 20px;
+}
+
+app-accueil #technologies{
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+app-accueil #parcours{
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+app-accueil #parcours > div{
+    display: grid;
+    grid-template-columns: 0px 100%;
+    grid-template-rows: auto;
+}
+
+app-accueil #technologies::before,app-accueil #parcours::before{
+    display: block;
+    content:"";
+    position: relative;
+    background-color: #459bd5;
+    width:60%;
+    height:2px;
+    top:0;
+    left:20%
+}
+
+app-accueil #technologies section{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 10px;
+    row-gap: 5px;
+    justify-content: center;
+}
+
+app-accueil #technologies h1{
+    font-size: 40px;
+}
+
+app-accueil #parcours h1{
+    font-size: 40px;
+}
+
+app-accueil #technologies section h2{
+    grid-column:1/5;
+    font-size: 32px;
+}
+
+app-accueil #technologies .techCard{
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    background-color: #050d12;
+    display: grid;
+    grid-template-rows: 75% 25%;
+    flex-direction: column;
+    border: 3px solid #459bd5;
+    border-radius: 1vw;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    row-gap: 1vh;
+    font-size: 24px;
+}
+
+app-accueil #technologies .techCard p{
+    margin: 0;
+}
+
+app-accueil #technologies .techCard img{
+    width:30%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+app-accueil #technologies .techCard img#express{
+    background-color: white;
+}
+
+app-accueil .experience{
+    grid-column: 2 / span 1;
+    padding-left: 10%;
+}
+
+app-accueil div#parcours h1{
+    padding-bottom:2%;
+}
+
+app-accueil #parcours .line{
+    grid-row: 1 / span 2;
+    grid-column: 1 / span 1;
+    display: block;
+    content:"";
+    position:relative;
+    background-color: #459bd5;
+    height:67.5%;
+    width:2px;
+    top:-9%;
+    justify-self: start;
+}
+
+app-accueil .experience::before{
+    display: block;
+    content:"";
+    position: relative;
+    background-color: #459bd5;
+    width:8%;
+    height:2px;
+    top: 20%;
+    left:-11%;
+}
+
+app-accueil .experience p:first-of-type{
+    margin-block-start: 0;
+}
+
+app-accueil .experience h2{
+    margin-block-end: 0;
+    font-size: 25px
+}
+
+app-accueil .experience p,app-accueil .experience ul{
+    font-size: 15px
+}

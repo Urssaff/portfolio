@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header{
+    height:100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left:3%;
+    padding-right:3%;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header div{
+    display:flex;
+    align-self:center;
+    justify-self:end;
+    gap: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4vh;
+}
+
+header div a{
+    align-self:center;
+}
+
+header div a:hover{
+    font-weight: bolder;
+    color:#459bd5;
+    cursor: pointer;
+}
+
+header h1{
+    font-family: "Bebas Neue", sans-serif;
+    text-align: center;
+    align-self: center;
+    font-size: 6vh;
+}
