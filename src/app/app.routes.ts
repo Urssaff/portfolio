@@ -3,6 +3,7 @@ import { AccueilComponent } from './accueil/accueil.component';
 import { ProjetsComponent } from './projets/projets.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactComponent } from './contact/contact.component';
+import { CompetencesComponent } from './competences/competences.component';
 
 export const routes: Routes = [{
     //http://localhost:4200
@@ -21,6 +22,11 @@ export const routes: Routes = [{
     {
     path:'projets',
     component: ProjetsComponent,
+    title: 'Portfolio - Projets' //texte dans l'onglet
+    },
+    {
+    path:'competences',
+    component: CompetencesComponent,
     title: 'Portfolio - Projets' //texte dans l'onglet
     },
     {
