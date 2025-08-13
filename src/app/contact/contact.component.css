@@ -33,6 +33,7 @@ app-contact a{
 }
 
 app-contact img{
+    transition: all 0.5s;
     justify-self: center;
     align-self: center;
     padding: 5px;
@@ -43,6 +44,7 @@ app-contact img{
 }
 
 app-contact img:hover{
+    transition: all 0.5s;
     background-color: #459bd5;
     height:90%
 }
