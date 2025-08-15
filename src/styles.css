@@ -31,6 +31,7 @@ app-projets #professionnal_projects, app-projets #school_projects{
     display:grid;
     grid-template-columns: calc(97%/3) calc(97%/3) calc(97%/3);
     column-gap: 1.5em;
+    row-gap: 1.5em;
 }
 
 app-competences .projets{
