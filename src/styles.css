@@ -100,7 +100,7 @@ app-competences .stars i{
 }
 
 app-competences .stars i.fa-star{
-    color:gold;
+    color:#459bd5;
 }
 
 app-competences .skill_mastery p{
@@ -109,6 +109,7 @@ app-competences .skill_mastery p{
 
 app-projets .project_card .project_technologies p:hover, app-competences .project_card .project_technologies p:hover{
     font-weight: bolder;
+    color:#459bd5;
     transition: all 0.5s;
 }
 
