@@ -27,10 +27,17 @@ app-projets > *{
     padding-right: 2%;
 }
 
-app-projets #professionnal_projects, app-projets #school_projects,app-competences .projets{
+app-projets #professionnal_projects, app-projets #school_projects{
     display:grid;
-    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+    grid-template-columns: calc(97%/3) calc(97%/3) calc(97%/3);
     column-gap: 1.5em;
+}
+
+app-competences .projets{
+    display:grid;
+    grid-template-columns: calc(97%/3) calc(97%/3) calc(97%/3);
+    column-gap: 1.5em;
+    row-gap: 1em;
 }
 
 app-projets .project_card, app-competences .project_card{
@@ -65,7 +72,7 @@ app-projets .project_card .project_technologies, app-competences .project_card .
     gap:0.5em
 }
 
-app-projets .project_card .project_technologies p, app-competences .project_card .project_technologies p{
+app-projets .project_card .project_technologies p, app-competences .project_card .project_technologies p, app-competences .skill_mastery span{
     border: 1px grey solid;
     width:min-content;
     height: min-content;
@@ -83,6 +90,20 @@ app-competences .project_card h5{
     font-size: 1em;
     margin-block-start: 0;
     margin-block-end: 0.5em;
+}
+
+app-competences .stars i{
+    width: 1.5em;
+    height:auto;
+    color: gray;
+}
+
+app-competences .stars i.fa-star{
+    color:gold;
+}
+
+app-competences .skill_mastery p{
+    font-weight: bolder;
 }
 
 app-projets .project_card .project_technologies p:hover, app-competences .project_card .project_technologies p:hover{
